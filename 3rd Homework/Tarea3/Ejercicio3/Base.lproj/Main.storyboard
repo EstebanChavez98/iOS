@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ejercicio3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TUP-tw-A9g">
+                                <rect key="frame" x="217" y="143" width="170" height="170"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="cxP-se-vZF"/>
+                                    <constraint firstAttribute="height" constant="170" id="eBJ-8n-iS3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xJ-CN-5ny">
+                                <rect key="frame" x="27" y="368" width="170" height="170"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="eDZ-Ii-fKS"/>
+                                    <constraint firstAttribute="width" constant="170" id="l6f-gP-owI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAZ-oR-bu3">
+                                <rect key="frame" x="27" y="593" width="170" height="170"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="SBJ-BU-kxY"/>
+                                    <constraint firstAttribute="height" constant="170" id="emP-w9-dh0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cY-11-x2y">
+                                <rect key="frame" x="27" y="143" width="170" height="170"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="3ht-n5-xPb"/>
+                                    <constraint firstAttribute="height" constant="170" id="B21-14-yu9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DLd-KZ-hph">
+                                <rect key="frame" x="217" y="593" width="170" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="1Q0-8B-zCz"/>
+                                    <constraint firstAttribute="height" constant="170" id="1gK-r4-YuY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gms-Xu-gRf">
+                                <rect key="frame" x="217" y="368" width="170" height="170"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="8s7-2t-wgP"/>
+                                    <constraint firstAttribute="width" constant="170" id="T9w-fC-syD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1xJ-CN-5ny" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="22r-zB-MNf">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-95"/>
+                            </constraint>
+                            <constraint firstItem="TUP-tw-A9g" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-225" id="3hT-7B-qhp">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-95"/>
+                            </constraint>
+                            <constraint firstItem="1xJ-CN-5ny" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-95" id="ANy-EU-MQX">
+                                <variation key="heightClass=compact-widthClass=regular" constant="225"/>
+                            </constraint>
+                            <constraint firstItem="8cY-11-x2y" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-95" id="O2O-5z-Moa">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-225"/>
+                            </constraint>
+                            <constraint firstItem="gms-Xu-gRf" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Ov6-1a-v2h">
+                                <variation key="heightClass=compact-widthClass=regular" constant="115"/>
+                            </constraint>
+                            <constraint firstItem="TUP-tw-A9g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="95" id="aei-eX-rK0">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="kAZ-oR-bu3" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-95" id="lIy-Av-Vx7">
+                                <variation key="heightClass=compact-widthClass=regular" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="DLd-KZ-hph" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="225" id="lW3-cI-xLa">
+                                <variation key="heightClass=compact-widthClass=regular" constant="115"/>
+                            </constraint>
+                            <constraint firstItem="8cY-11-x2y" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-225" id="p1k-0E-aPN">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-95"/>
+                            </constraint>
+                            <constraint firstItem="kAZ-oR-bu3" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="225" id="rKp-08-yfV">
+                                <variation key="heightClass=compact-widthClass=regular" constant="115"/>
+                            </constraint>
+                            <constraint firstItem="DLd-KZ-hph" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="95" id="sn4-a7-QeK">
+                                <variation key="heightClass=compact-widthClass=regular" constant="225"/>
+                            </constraint>
+                            <constraint firstItem="gms-Xu-gRf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="95" id="wAH-bO-0dh">
+                                <variation key="heightClass=compact-widthClass=regular" constant="-225"/>
+                            </constraint>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
