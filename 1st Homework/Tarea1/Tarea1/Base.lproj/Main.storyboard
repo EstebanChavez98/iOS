@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Tarea1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6L-VC-Kwq">
+                                <rect key="frame" x="0.0" y="44" width="414" height="204.5"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZXv-kC-Hl5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYC-el-Rw7">
+                                <rect key="frame" x="0.0" y="248.5" width="414" height="204.5"/>
+                                <color key="backgroundColor" red="1" green="0.23179824309725072" blue="0.26246755165492608" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGV-tX-bQu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hsr-TM-AOI">
+                                <rect key="frame" x="0.0" y="453" width="414" height="204.5"/>
+                                <color key="backgroundColor" red="0.095351759244037909" green="0.1964331638526641" blue="0.87362370466321249" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2XU-8l-UP3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ED8-2x-hh1">
+                                <rect key="frame" x="0.0" y="657.5" width="414" height="204.5"/>
+                                <color key="backgroundColor" red="0.87362370466321249" green="0.8681491514748505" blue="0.098719085218486352" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="click:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T27-Rq-px3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lO-1P-YSY">
+                                <rect key="frame" x="168" y="409" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hsr-TM-AOI" secondAttribute="trailing" id="1Rz-t7-kCn"/>
+                            <constraint firstItem="Hsr-TM-AOI" firstAttribute="top" secondItem="tYC-el-Rw7" secondAttribute="bottom" id="2cq-3t-Shz"/>
+                            <constraint firstItem="tYC-el-Rw7" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1:4" id="3wz-KC-cxQ"/>
+                            <constraint firstItem="ED8-2x-hh1" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1:4" id="DlR-mF-qoe"/>
+                            <constraint firstItem="Hsr-TM-AOI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MV9-q3-gtM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tYC-el-Rw7" secondAttribute="trailing" id="UdL-ke-KnH"/>
+                            <constraint firstItem="P6L-VC-Kwq" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1:4" id="UkQ-Ie-AaE"/>
+                            <constraint firstItem="Hsr-TM-AOI" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="1:4" id="XN0-aB-ips"/>
+                            <constraint firstItem="1lO-1P-YSY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fcA-ft-lYu"/>
+                            <constraint firstItem="tYC-el-Rw7" firstAttribute="top" secondItem="P6L-VC-Kwq" secondAttribute="bottom" id="hLp-MT-sPM"/>
+                            <constraint firstItem="ED8-2x-hh1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hZ0-wN-Ahx"/>
+                            <constraint firstItem="tYC-el-Rw7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="haJ-kX-fG5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ED8-2x-hh1" secondAttribute="trailing" id="jNa-Lr-tvo"/>
+                            <constraint firstItem="P6L-VC-Kwq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lLP-Tz-Tce"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P6L-VC-Kwq" secondAttribute="trailing" id="n6G-v5-8ff"/>
+                            <constraint firstItem="P6L-VC-Kwq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ofo-DP-raQ"/>
+                            <constraint firstItem="ED8-2x-hh1" firstAttribute="top" secondItem="Hsr-TM-AOI" secondAttribute="bottom" id="ufz-hi-a0b"/>
+                            <constraint firstItem="1lO-1P-YSY" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="xxl-2h-m6F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="amarillo" destination="ED8-2x-hh1" id="fxX-vR-XMb"/>
+                        <outlet property="azul" destination="Hsr-TM-AOI" id="KHV-Gr-DAj"/>
+                        <outlet property="color" destination="1lO-1P-YSY" id="cic-qK-ANL"/>
+                        <outlet property="rojo" destination="tYC-el-Rw7" id="pUq-We-6X4"/>
+                        <outlet property="verde" destination="P6L-VC-Kwq" id="xE5-wv-XWl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
